@@ -14,6 +14,8 @@ public class Simple {
 		System.out.println("Here we are!");
 		System.out.println("Ready?");
 		System.out.println("Go!");
+		System.out.println("and Rego!");
+		
 		
 	}
 
