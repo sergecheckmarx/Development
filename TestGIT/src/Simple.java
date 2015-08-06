@@ -12,6 +12,8 @@ public class Simple {
 		System.out.println("What a wonderful day!");
 		System.out.println("See you later!");
 		System.out.println("Here we are!");
+		System.out.println("Ready?");
+		
 	}
 
 }
