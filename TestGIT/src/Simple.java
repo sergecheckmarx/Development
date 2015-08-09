@@ -1,9 +1,17 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+
 
 public class Simple {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
+		BufferedReader br = new BufferedReader (new InputStreamReader(System.in));
 		System.out.println("Hello World");
+		System.out.println("Enter confidential information:");
+		String input = br.readLine();
 		String [] s = args;
 		
 		displayMessages(s);
