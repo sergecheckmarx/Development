@@ -6,10 +6,10 @@ public class Simple {
 		System.out.println("Hello World");
 		String [] s = args;
 		
-		displayMessages();
+		displayMessages(s);
 	}
 	
-	private static void displayMessages()
+	private static void displayMessages(String [] s)
 	{
 		System.out.println("What a wonderful day!");
 		System.out.println("See you later!");
